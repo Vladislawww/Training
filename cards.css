@@ -1,0 +1,169 @@
+/* .description_title{
+
+} */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap');
+
+
+
+/* description_content */
+
+body{
+    /* text-align: center; */
+    margin: 0;
+    border-radius: 0;
+    font-family: 'Inter', sans-serif;
+}
+.description_button{
+    background-color: rgb(87, 224, 87);
+    color: black;
+    border-radius: 24px;
+    padding: 10px 15px;
+    padding-bottom: 10px;
+    border: 1px  solid black;
+    bottom: 30px;
+    margin: 5px;
+}
+.description{
+    display: flex;
+    flex-direction: column;   
+    flex:1;
+}
+.description_content{
+    flex: 1;
+}
+.card {
+
+    width: 300px;
+    margin: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;  
+    padding-bottom: 20px; 
+}
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px 10px 0px 0px ;
+    height: 250px;
+    object-fit: cover;
+}
+.card .description {
+    padding: 10px;
+    font-size: 16px;
+    color: #555;
+    line-height: 1.5;
+}
+.card_preference{
+    background-color: rgb(75, 205, 75);
+    border-radius: 16px;
+    padding: 24px;
+    display: flex;
+    justify-content: space-between;
+}
+.container{
+    background-color: rgba(128, 128, 128, 0.1);
+    color: black;
+    height: 400px;
+    width: 400px;
+    border-radius: 30px;
+    margin: 15px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    /* display: flex; */
+
+
+}
+.container>button{
+    background-color: greenyellow;
+    border-radius: 20px;
+    height: 40px;
+    width: 100px;
+}
+.container>img{
+    width: 200px;
+    height: 100px;
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+.bottom{
+    display: flex;
+    justify-content: center;
+}
+.block{
+    width: 600px;
+    height: 150px;
+    border-radius: 40px;
+    background-color: aliceblue;
+    padding: 30px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+}
+.block:hover{
+    transform: rotate(5deg);
+    transform: scale(53px);
+}
+.forma {
+    margin: 0 auto;
+
+}
+.title {
+    font-size: 24px;
+    text-align: center;
+    padding-bottom: 0.5em;
+    
+}
+.forma form{
+    background-color: #A8D741;
+    padding: 32px;
+    max-width: 60vw;
+    border-radius: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    gap: 16px;
+}
+.formRow {
+    display: flex;
+    gap: 24px;
+    width: 100%;
+}
+
+.form-input, textarea {
+    border-radius: 8px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    width: 100%;
+    
+}
+textarea{
+    resize: none;
+}
+.form_message {
+}
+.form_button {
+    border-radius: 8px;
+    padding: 5px 20px;
+    border: 1px solid #ccc;
+    color: white;
+    background-color: transparent; 
+
+}
+.main{
+    background: grey;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    width: 500px;
+    display: flex;
+    border-radius: 30px;
+    overflow: hidden;
+    align-items: stretch;
+}
+.main .picture img{
+    height: 100%;
+    object-fit: cover;
+}
+.main .picture {
+    height: 100%;
+    
+}
